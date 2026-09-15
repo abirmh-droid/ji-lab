@@ -24,7 +24,7 @@
     groupPhoto.className = 'container lab-group-photo';
     groupPhoto.innerHTML = `
       <figure>
-        <img src="assets/ji-lab-group.jpg" width="1200" height="703" alt="Ji Lab members together in front of the Penn State College of Health and Human Development Nutritional Sciences sign." loading="lazy">
+        <img src="assets/ji-lab-group.png" alt="Ji Lab members together in front of the Penn State College of Health and Human Development Nutritional Sciences sign." loading="lazy">
         <figcaption>JI LAB · DEPARTMENT OF NUTRITIONAL SCIENCES · PENN STATE</figcaption>
       </figure>
     `;
