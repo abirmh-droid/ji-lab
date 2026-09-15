@@ -1,18 +1,6 @@
 /* Navigation is an enhancement: every section and link works without JavaScript. */
 (() => {
   'use strict';
-
-  /* The uploaded .png is HEIC internally, which Chrome cannot render reliably.
-     Use the browser-compatible JPEG copy of the same Ji Lab group photo instead. */
-  const heroImage = document.querySelector('.hero-image img');
-  if (heroImage) {
-    heroImage.src = 'assets/ji-lab-group.jpg?v=chrome-fix';
-    heroImage.alt = 'Ji Lab members together in front of the Penn State College of Health and Human Development Nutritional Sciences sign.';
-    heroImage.style.objectFit = 'contain';
-    heroImage.style.objectPosition = 'center center';
-    heroImage.style.background = '#fff';
-  }
-
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#primary-nav');
   if (toggle && nav) {
