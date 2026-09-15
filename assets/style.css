@@ -17,4 +17,4 @@
 @media print{.team-card{break-inside:avoid}}
 
 /* Owner-supplied team portraits; consistent display without changing originals. */
-.team-photo{display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:center 30%;margin:0 0 22px}
+.team-photo-frame{position:relative;width:100%;height:0;padding-top:100%;overflow:hidden;margin:0 0 22px}.team-card .team-photo{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 30%;margin:0}
