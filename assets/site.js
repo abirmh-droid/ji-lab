@@ -1,36 +1,6 @@
 /* Navigation is an enhancement: every section and link works without JavaScript. */
 (() => {
   'use strict';
-
-  /* Display the lab group photo at its natural aspect ratio so no one is cropped. */
-  const peopleSection = document.querySelector('#people');
-  const teamMembers = peopleSection ? peopleSection.querySelector('.team-members') : null;
-  if (peopleSection && teamMembers && !peopleSection.querySelector('.lab-group-photo')) {
-    if (!document.querySelector('#lab-group-photo-styles')) {
-      const style = document.createElement('style');
-      style.id = 'lab-group-photo-styles';
-      style.textContent = `
-        .lab-group-photo{margin-top:76px;margin-bottom:76px}
-        .lab-group-photo figure{margin:0}
-        .lab-group-photo img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#fff}
-        .lab-group-photo figcaption{margin-top:12px;font-size:.75rem;line-height:1.5;letter-spacing:.08em;font-weight:600;color:var(--muted)}
-        @media(max-width:920px){.lab-group-photo{margin-top:54px;margin-bottom:54px}}
-        @media(max-width:620px){.lab-group-photo{margin-top:40px;margin-bottom:40px}.lab-group-photo figcaption{font-size:.7rem}}
-      `;
-      document.head.appendChild(style);
-    }
-
-    const groupPhoto = document.createElement('div');
-    groupPhoto.className = 'container lab-group-photo';
-    groupPhoto.innerHTML = `
-      <figure>
-        <img src="assets/ji-lab-group.png" alt="Ji Lab members together in front of the Penn State College of Health and Human Development Nutritional Sciences sign." loading="lazy">
-        <figcaption>JI LAB · DEPARTMENT OF NUTRITIONAL SCIENCES · PENN STATE</figcaption>
-      </figure>
-    `;
-    peopleSection.insertBefore(groupPhoto, teamMembers);
-  }
-
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#primary-nav');
   if (toggle && nav) {
