@@ -1,6 +1,24 @@
 /* Navigation is an enhancement: every section and link works without JavaScript. */
 (() => {
   'use strict';
+
+  /* Use the current lab group portrait as the homepage feature image. */
+  const heroFigure = document.querySelector('.hero-image');
+  if (heroFigure) {
+    const heroImage = heroFigure.querySelector('img');
+    const heroCaption = heroFigure.querySelector('figcaption');
+    if (heroImage) {
+      heroImage.src = 'assets/ji-lab-group.jpg';
+      heroImage.alt = 'Ji Lab members together at Penn State Nutritional Sciences.';
+      heroImage.width = 1200;
+      heroImage.height = 703;
+      heroImage.style.objectPosition = 'center center';
+    }
+    if (heroCaption) {
+      heroCaption.innerHTML = '<span>MEET THE JI LAB</span><strong>Our team</strong><span>Department of Nutritional Sciences · Penn State</span>';
+    }
+  }
+
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#primary-nav');
   if (toggle && nav) {
