@@ -2,21 +2,33 @@
 (() => {
   'use strict';
 
-  /* Use the current lab group portrait as the homepage feature image. */
-  const heroFigure = document.querySelector('.hero-image');
-  if (heroFigure) {
-    const heroImage = heroFigure.querySelector('img');
-    const heroCaption = heroFigure.querySelector('figcaption');
-    if (heroImage) {
-      heroImage.src = 'assets/ji-lab-group.jpg';
-      heroImage.alt = 'Ji Lab members together at Penn State Nutritional Sciences.';
-      heroImage.width = 1200;
-      heroImage.height = 703;
-      heroImage.style.objectPosition = 'center center';
+  /* Display the lab group photo at its natural aspect ratio so no one is cropped. */
+  const peopleSection = document.querySelector('#people');
+  const teamMembers = peopleSection ? peopleSection.querySelector('.team-members') : null;
+  if (peopleSection && teamMembers && !peopleSection.querySelector('.lab-group-photo')) {
+    if (!document.querySelector('#lab-group-photo-styles')) {
+      const style = document.createElement('style');
+      style.id = 'lab-group-photo-styles';
+      style.textContent = `
+        .lab-group-photo{margin-top:76px;margin-bottom:76px}
+        .lab-group-photo figure{margin:0}
+        .lab-group-photo img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#fff}
+        .lab-group-photo figcaption{margin-top:12px;font-size:.75rem;line-height:1.5;letter-spacing:.08em;font-weight:600;color:var(--muted)}
+        @media(max-width:920px){.lab-group-photo{margin-top:54px;margin-bottom:54px}}
+        @media(max-width:620px){.lab-group-photo{margin-top:40px;margin-bottom:40px}.lab-group-photo figcaption{font-size:.7rem}}
+      `;
+      document.head.appendChild(style);
     }
-    if (heroCaption) {
-      heroCaption.innerHTML = '<span>MEET THE JI LAB</span><strong>Our team</strong><span>Department of Nutritional Sciences · Penn State</span>';
-    }
+
+    const groupPhoto = document.createElement('div');
+    groupPhoto.className = 'container lab-group-photo';
+    groupPhoto.innerHTML = `
+      <figure>
+        <img src="assets/ji-lab-group.jpg" width="1200" height="703" alt="Ji Lab members together in front of the Penn State College of Health and Human Development Nutritional Sciences sign." loading="lazy">
+        <figcaption>JI LAB · DEPARTMENT OF NUTRITIONAL SCIENCES · PENN STATE</figcaption>
+      </figure>
+    `;
+    peopleSection.insertBefore(groupPhoto, teamMembers);
   }
 
   const toggle = document.querySelector('.menu-toggle');
