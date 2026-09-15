@@ -40,12 +40,12 @@ Official instructions: [Create a GitHub Pages site](https://docs.github.com/en/p
 
 To add a publication, copy one complete `<article class="publication">...</article>` block and edit its year, journal, title, authors, citation, and both DOI links. Add newer work at the top. Confirm author names and DOI against the published paper.
 
-To add team members, insert their approved details after the principal investigator section. The initial website includes Dr. Ji, the person listed on the official team page; no student roster or lab news was supplied.
+To add team members, copy a `team-card` in the People section and update the name, role, email, office, and LinkedIn link. The team includes Amalina Shabrina (2nd-year PhD student), Mehedy Hasan Abir (1st-year PhD student), and Parth Shah (Research Technologist). Update student years as needed.
 
 ## Source and design notes
 
 The structure follows the straightforward GitHub Pages editing approach described in the supplied guide. This is an original static HTML/CSS implementation. All navigation and content work without JavaScript; JavaScript adds the mobile menu, section highlighting, and current footer year.
 
-Research descriptions, contact details, photos, and publication metadata were checked against the official sources listed in `SOURCES.md` on September 15, 2026. The website distinguishes **311 Chandlee Laboratory** (lab contact address) from **323 Chandlee Laboratory** (Dr. Ji's office). The selected publications include work from before his Penn State appointment.
+Research descriptions, contact details, photos, and publication metadata were checked against the official sources listed in `SOURCES.md` on September 15, 2026. The website distinguishes **315 Chandlee Building** (lab and team office) from **323 Chandlee Building** (Dr. Ji's office), at **209 Pollock Rd., University Park, PA 16802**, using the owner's corrected contact information. The selected publications include work from before his Penn State appointment.
 
 Penn State images retain their owners' rights. Their source pages do not state a separate reuse license. Replace them with lab-supplied images if needed. The Ji monogram is a custom site mark, not an official Penn State logo.

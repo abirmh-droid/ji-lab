@@ -11,11 +11,11 @@ Checked September 15, 2026. The supplied `Pasted markdown.md` describes a GitHub
 | Metabolic reprogramming, redox imbalance, e-cigarettes, ferroptosis, CFTR, and model systems | https://hhd.psu.edu/nutr/research/lab/ji-lab/about-our-lab |
 | Probiotic research and cystic fibrosis–related diabetes research | https://hhd.psu.edu/nutr/research/lab/ji-lab/current-studies |
 | Principal investigator and degree subject | https://hhd.psu.edu/nutr/research/lab/ji-lab/meet-our-team |
-| Lab address at 311 Chandlee Laboratory | https://hhd.psu.edu/nutr/research/lab/ji-lab/contact-us |
+| Corrected lab and team office: 315 Chandlee Building; PI office: 323; 209 Pollock Rd., University Park, PA 16802 | Website owner’s supplied corrections, September 15, 2026 |
 | Ph.D. program link | https://hhd.psu.edu/nutrition/graduate-program/phd |
 | Research output directory | https://pure.psu.edu/en/persons/xiangming-ji/ |
 
-The faculty profile lists the office as 323 Chandlee Laboratory, while the lab contact page lists 311. Both are preserved with explicit labels. The site describes research directions, without claiming that individual grants are still active. No unverified member names, grants, news, awards, or recruitment deadlines were added.
+The website owner supplied the corrected address: 323 (PI office) / 315 (lab and team office) Chandlee Building, 209 Pollock Rd., University Park, PA 16802. These corrections supersede the older lab directory address. The site describes research directions, without claiming that individual grants are still active. No unverified member names, grants, news, awards, or recruitment deadlines were added.
 
 ## Selected publications
 
@@ -47,3 +47,11 @@ Images were obtained from Penn State College of Health and Human Development and
 - https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
+
+## Team details supplied by the website owner
+
+Roles, student years, emails, office locations, and the following LinkedIn links were supplied directly on September 15, 2026. No additional biography or photograph was inferred from LinkedIn.
+
+- Amalina Shabrina: PhD Student · 2nd Year; abs8079@psu.edu; office 315 Chandlee Building. LinkedIn: https://www.linkedin.com/in/amalina-shabrina-6276a0130/
+- Mehedy Hasan Abir: PhD Student · 1st Year; mpa6021@psu.edu; office 315 Chandlee Building. LinkedIn: https://www.linkedin.com/in/mehedy-hasan-abir-b61aa087/
+- Parth Shah: Research Technologist; pzs5888@psu.edu; office 315 Chandlee Building. LinkedIn: https://www.linkedin.com/in/parth-shah-323148265/
