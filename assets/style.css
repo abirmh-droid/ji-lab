@@ -15,3 +15,6 @@
 .team-members{margin-top:55px;padding-top:35px;border-top:1px solid var(--line)}.team-members>h3{font-family:var(--serif);font-size:2rem;margin:0 0 25px}.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.team-card{padding:27px;background:#fff;border:1px solid var(--line);min-width:0}.team-card h4{font-size:1.25rem;line-height:1.4;margin:0 0 10px}.team-card p{font-size:.875rem;color:var(--muted);margin:0 0 10px}.team-card .team-role{color:var(--teal);font-weight:600;min-height:1.75em}.team-email{display:block;font-size:.875rem;overflow-wrap:anywhere}.team-email:hover{text-decoration:underline}.team-card .text-link{margin-top:22px;font-size:.875rem}
 @media(max-width:920px){.team-grid{grid-template-columns:1fr}.team-card .team-role{min-height:0}}
 @media print{.team-card{break-inside:avoid}}
+
+/* Owner-supplied team portraits; consistent display without changing originals. */
+.team-photo{display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:center 30%;margin:0 0 22px}

@@ -55,3 +55,7 @@ Roles, student years, emails, office locations, and the following LinkedIn links
 - Amalina Shabrina: PhD Student · 2nd Year; abs8079@psu.edu; office 315 Chandlee Building. LinkedIn: https://www.linkedin.com/in/amalina-shabrina-6276a0130/
 - Mehedy Hasan Abir: PhD Student · 1st Year; mpa6021@psu.edu; office 315 Chandlee Building. LinkedIn: https://www.linkedin.com/in/mehedy-hasan-abir-b61aa087/
 - Parth Shah: Research Technologist; pzs5888@psu.edu; office 315 Chandlee Building. LinkedIn: https://www.linkedin.com/in/parth-shah-323148265/
+
+## Team portraits
+
+The website owner supplied the three original photos and identified their order: Amalina Shabrina, Mehedy Hasan Abir, and Parth Shah. Photos are stored unchanged; square display framing is applied using CSS.
